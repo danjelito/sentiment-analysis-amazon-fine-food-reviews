@@ -76,4 +76,5 @@ def preprocess(doc):
     doc = strip_doc(doc)
     doc = remove_empty_strings(doc)
     doc = [token for token in doc if len(token) > 1]
-    return " ".join(doc)
+    # return " ".join(doc)
+    return doc
